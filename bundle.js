@@ -21522,7 +21522,7 @@
 	            _react2.default.createElement(
 	              "button",
 	              { type: "button", className: "navbar-toggle", "data-toggle": "collapse", "data-target": "#myNavbar" },
-	              _react2.default.createElement("span", { className: "icon-bar" }),
+	              _react2.default.createElement("span", { className: "icon-bar sample2" }),
 	              _react2.default.createElement("span", { className: "icon-bar" }),
 	              _react2.default.createElement("span", { className: "icon-bar" })
 	            ),

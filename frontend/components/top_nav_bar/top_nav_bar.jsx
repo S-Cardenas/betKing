@@ -7,7 +7,7 @@ class TopNavBar extends React.Component {
         <div className="container-fluid">
           <div className="navbar-header sample">
             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span className="icon-bar"></span>
+              <span className="icon-bar sample2"></span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
