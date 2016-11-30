@@ -7,13 +7,17 @@ class TopNavBar extends React.Component {
         <div className="container-fluid">
           <div className="navbar-header sample">
             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span className="icon-bar sample2"></span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <button type="button" className="navbar-toggle" data-toggle="collapse">
+              <img className="img-responsive" src="assets/images/account.jpg" alt="" style={{width: 20, height: 20}}/>
             </button>
             <a className="navbar-brand" href="#">
               <img className="img-responsive" src="assets/images/logo.png" alt="" style={{width: 167.4, height: 46.2}}/>
             </a>
+
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
