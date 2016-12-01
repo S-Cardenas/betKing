@@ -28956,7 +28956,16 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "panel-body dice-content" },
-	            "Panel Content"
+	            _react2.default.createElement(
+	              "div",
+	              { className: "dice-results" },
+	              "99.999"
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement("div", { className: "glyphicon glyphicon glyphicon-volume-up" })
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",

@@ -8,7 +8,14 @@ class Dice extends React.Component {
           <div className="panel-heading dice-header">
             Dice Jackpot: 234 Bitcoin
           </div>
-          <div className="panel-body dice-content">Panel Content</div>
+          <div className="panel-body dice-content">
+            <div className='dice-results'>
+              99.999
+            </div>
+            <div>
+              <div className="glyphicon glyphicon glyphicon-volume-up"></div>
+            </div>
+          </div>
           <div className="panel-footer">Panel Footer</div>
         </div>
       </div>
