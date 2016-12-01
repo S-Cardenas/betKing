@@ -21526,6 +21526,11 @@
 	              { className: 'btn-group navbar-toggle' },
 	              _react2.default.createElement(
 	                'button',
+	                { type: 'button', className: 'btn account-img', 'data-toggle': 'collapse' },
+	                _react2.default.createElement('img', { className: 'img-responsive', src: 'assets/images/bitcoin_logo.png', alt: '', style: { width: 50, height: 50 } })
+	              ),
+	              _react2.default.createElement(
+	                'button',
 	                { type: 'button', className: 'btn chat-icon', 'data-toggle': 'collapse' },
 	                _react2.default.createElement(
 	                  _reactRouter.Link,

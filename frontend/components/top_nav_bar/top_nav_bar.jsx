@@ -8,6 +8,9 @@ class TopNavBar extends React.Component {
         <div className="container-fluid">
           <div className="navbar-header ">
             <div className="btn-group navbar-toggle">
+              <button type="button" className="btn account-img" data-toggle="collapse">
+                <img className="img-responsive" src="assets/images/bitcoin_logo.png" alt="" style={{width: 50, height: 50}}/>
+              </button>
               <button type="button" className="btn chat-icon" data-toggle="collapse">
                 <Link to={'/chat'}>Chat</Link>
               </button>
