@@ -28963,8 +28963,22 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              null,
-	              _react2.default.createElement("div", { className: "glyphicon glyphicon glyphicon-volume-up" })
+	              { className: "row" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-4" },
+	                _react2.default.createElement("span", { className: "glyphicon glyphicon glyphicon-volume-up" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-4 dice-footer-winnings" },
+	                "You win 123B"
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-4 dice-footer-verify" },
+	                "Verify"
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(

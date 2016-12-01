@@ -12,8 +12,16 @@ class Dice extends React.Component {
             <div className='dice-results'>
               99.999
             </div>
-            <div>
-              <div className="glyphicon glyphicon glyphicon-volume-up"></div>
+            <div className="row">
+              <div className="col-xs-4">
+                <span className="glyphicon glyphicon glyphicon-volume-up"></span>
+              </div>
+              <div className="col-xs-4 dice-footer-winnings">
+                You win 123B
+              </div>
+              <div className="col-xs-4 dice-footer-verify">
+                Verify
+              </div>
             </div>
           </div>
           <div className="panel-footer">Panel Footer</div>
