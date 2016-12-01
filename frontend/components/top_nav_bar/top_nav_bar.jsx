@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class TopNavBar extends React.Component {
   render() {
     return (
-      <div>
+      <div className="top">
         <nav className="navbar navbar-inverse ">
           <div className="container-fluid">
             <div className="navbar-header ">

@@ -28623,7 +28623,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'top' },
 	        _react2.default.createElement(
 	          'nav',
 	          { className: 'navbar navbar-inverse ' },
@@ -28996,6 +28996,81 @@
 	                "div",
 	                { className: "col-xs-6" },
 	                "Max Profit: 123B"
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container-fluid" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-6 payout-bet-amount" },
+	              "Bet Amount:"
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-6 payout-bet-amount" },
+	              "____________"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row " },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-6 payout-bet-amount" },
+	              "Payout:"
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-6 payout-bet-amount" },
+	              "____________"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container-fluid" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row dice-control-btns" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-6 hi-low-btn " },
+	              _react2.default.createElement(
+	                "button",
+	                { type: "button", className: "btn btn-default hi-btn" },
+	                "Hi"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-6 hi-low-btn " },
+	              _react2.default.createElement(
+	                "button",
+	                { type: "button", className: "btn btn-primary low-btn" },
+	                "Lo"
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container-fluid" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row dice-control-btns" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-xs-12 hi-low-btn " },
+	              _react2.default.createElement(
+	                "button",
+	                { type: "button", className: "btn btn-default adv-btn" },
+	                "Advanced Options"
 	              )
 	            )
 	          )
