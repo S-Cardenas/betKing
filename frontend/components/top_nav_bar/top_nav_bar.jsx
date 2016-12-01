@@ -3,17 +3,21 @@ import React from 'react';
 class TopNavBar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-inverse sample">
+      <nav className="navbar navbar-inverse ">
         <div className="container-fluid">
-          <div className="navbar-header sample">
-            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
-            <button type="button" className="navbar-toggle" data-toggle="collapse">
-              <img className="img-responsive" src="assets/images/account.jpg" alt="" style={{width: 20, height: 20}}/>
-            </button>
+          <div className="navbar-header ">
+            <div className="btn-group navbar-toggle">
+              <button type="button" className="btn account-img" data-toggle="collapse">
+                <img className="img-responsive" src="assets/images/account.jpg" alt="" style={{width: 50, height: 50}}/>
+              </button>
+              <button type="button" className="btn sample" data-toggle="collapse" data-target="#myNavbar">
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+
+            </div>
+
             <a className="navbar-brand" href="#">
               <img className="img-responsive" src="assets/images/logo.png" alt="" style={{width: 167.4, height: 46.2}}/>
             </a>

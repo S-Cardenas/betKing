@@ -21512,24 +21512,28 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "nav",
-	        { className: "navbar navbar-inverse sample" },
+	        { className: "navbar navbar-inverse " },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "container-fluid" },
 	          _react2.default.createElement(
 	            "div",
-	            { className: "navbar-header sample" },
+	            { className: "navbar-header " },
 	            _react2.default.createElement(
-	              "button",
-	              { type: "button", className: "navbar-toggle", "data-toggle": "collapse", "data-target": "#myNavbar" },
-	              _react2.default.createElement("span", { className: "icon-bar" }),
-	              _react2.default.createElement("span", { className: "icon-bar" }),
-	              _react2.default.createElement("span", { className: "icon-bar" })
-	            ),
-	            _react2.default.createElement(
-	              "button",
-	              { type: "button", className: "navbar-toggle", "data-toggle": "collapse" },
-	              _react2.default.createElement("img", { className: "img-responsive", src: "assets/images/account.jpg", alt: "", style: { width: 20, height: 20 } })
+	              "div",
+	              { className: "btn-group navbar-toggle" },
+	              _react2.default.createElement(
+	                "button",
+	                { type: "button", className: "btn account-img", "data-toggle": "collapse" },
+	                _react2.default.createElement("img", { className: "img-responsive", src: "assets/images/account.jpg", alt: "", style: { width: 50, height: 50 } })
+	              ),
+	              _react2.default.createElement(
+	                "button",
+	                { type: "button", className: "btn sample", "data-toggle": "collapse", "data-target": "#myNavbar" },
+	                _react2.default.createElement("span", { className: "icon-bar" }),
+	                _react2.default.createElement("span", { className: "icon-bar" }),
+	                _react2.default.createElement("span", { className: "icon-bar" })
+	              )
 	            ),
 	            _react2.default.createElement(
 	              "a",
