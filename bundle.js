@@ -28638,8 +28638,8 @@
 	                      'data-toggle': 'dropdown' },
 	                    _react2.default.createElement('img', { className: 'img-responsive',
 	                      src: 'assets/images/bitcoin_logo.png',
-	                      alt: '',
-	                      style: { width: 50, height: 50 } })
+	                      alt: ''
+	                    })
 	                  ),
 	                  _react2.default.createElement(
 	                    'ul',
@@ -28711,8 +28711,7 @@
 	                { className: 'navbar-brand', href: '#' },
 	                _react2.default.createElement('img', { className: 'img-responsive',
 	                  src: 'assets/images/logo.png',
-	                  alt: '',
-	                  style: { width: 167.4, height: 46.2 } })
+	                  alt: '' })
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -28790,7 +28789,7 @@
 	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
+	            { className: 'row sample' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
 	              { className: '', to: '/dice' },

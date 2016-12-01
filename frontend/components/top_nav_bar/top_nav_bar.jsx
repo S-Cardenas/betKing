@@ -16,7 +16,7 @@ class TopNavBar extends React.Component {
                     <img className="img-responsive"
                          src="assets/images/bitcoin_logo.png"
                          alt=""
-                         style={{width: 50, height: 50}}/>
+                        />
                      </button>
                      <ul className="dropdown-menu" role="menu">
                       <li><a href="#">Bitcoin Option 1</a></li>
@@ -52,8 +52,7 @@ class TopNavBar extends React.Component {
               <a className="navbar-brand" href="#">
                 <img className="img-responsive"
                      src="assets/images/logo.png"
-                     alt=""
-                     style={{width: 167.4, height: 46.2}}/>
+                     alt=""/>
               </a>
             </div>
 
@@ -80,7 +79,7 @@ class TopNavBar extends React.Component {
           </div>
         </nav>
         <div className="container-fluid">
-          <div className="row">
+          <div className="row sample">
             <Link className="" to={'/dice'}>
               <div className="col-xs-3 under-nav-row">
                 Dice
