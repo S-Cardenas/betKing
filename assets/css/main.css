@@ -8,6 +8,11 @@
   height: 50px;
 }
 
+.bitcoin-logo {
+  padding: 0;
+  height: 50px;
+}
+
 .hamburger {
   padding: 0;
   height: 50px;
@@ -30,4 +35,8 @@
 .navbar-toggle {
   padding: 0;
   margin-right: 10px;
+}
+
+.sample {
+  width: 30px;
 }

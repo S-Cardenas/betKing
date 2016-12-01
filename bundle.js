@@ -21526,12 +21526,20 @@
 	              { className: 'btn-group navbar-toggle' },
 	              _react2.default.createElement(
 	                'button',
-	                { type: 'button', className: 'btn account-img', 'data-toggle': 'collapse' },
-	                _react2.default.createElement('img', { className: 'img-responsive', src: 'assets/images/bitcoin_logo.png', alt: '', style: { width: 50, height: 50 } })
+	                { type: 'button',
+	                  className: 'btn bitcoin-logo dropdown-toggle',
+	                  'data-target': 'dropdown',
+	                  'aria-haspopup': 'true', 'aria-expanded': 'false' },
+	                _react2.default.createElement('img', { className: 'img-responsive',
+	                  src: 'assets/images/bitcoin_logo.png',
+	                  alt: '',
+	                  style: { width: 50, height: 50 } })
 	              ),
 	              _react2.default.createElement(
 	                'button',
-	                { type: 'button', className: 'btn chat-icon', 'data-toggle': 'collapse' },
+	                { type: 'button',
+	                  className: 'btn chat-icon',
+	                  'data-toggle': 'collapse' },
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
 	                  { to: '/chat' },
@@ -21540,21 +21548,71 @@
 	              ),
 	              _react2.default.createElement(
 	                'button',
-	                { type: 'button', className: 'btn account-img', 'data-toggle': 'collapse' },
-	                _react2.default.createElement('img', { className: 'img-responsive', src: 'assets/images/account.jpg', alt: '', style: { width: 50, height: 50 } })
+	                { type: 'button', className: 'btn account-img' },
+	                _react2.default.createElement('img', { className: 'img-responsive',
+	                  src: 'assets/images/account.jpg',
+	                  alt: '',
+	                  style: { width: 50, height: 50 } })
 	              ),
 	              _react2.default.createElement(
 	                'button',
-	                { type: 'button', className: 'btn hamburger', 'data-toggle': 'collapse', 'data-target': '#myNavbar' },
+	                { type: 'button',
+	                  className: 'btn hamburger',
+	                  'data-toggle': 'collapse',
+	                  'data-target': '#myNavbar' },
 	                _react2.default.createElement('span', { className: 'icon-bar' }),
 	                _react2.default.createElement('span', { className: 'icon-bar' }),
 	                _react2.default.createElement('span', { className: 'icon-bar' })
+	              ),
+	              _react2.default.createElement(
+	                'ul',
+	                { className: 'dropdown-menu' },
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: '#' },
+	                    'Action'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: '#' },
+	                    'Another action'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: '#' },
+	                    'Something else here'
+	                  )
+	                ),
+	                _react2.default.createElement('li', { role: 'separator', className: 'divider' }),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: '#' },
+	                    'Separated link'
+	                  )
+	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'a',
 	              { className: 'navbar-brand', href: '#' },
-	              _react2.default.createElement('img', { className: 'img-responsive', src: 'assets/images/logo.png', alt: '', style: { width: 167.4, height: 46.2 } })
+	              _react2.default.createElement('img', { className: 'img-responsive',
+	                src: 'assets/images/logo.png',
+	                alt: '',
+	                style: { width: 167.4, height: 46.2 } })
 	            )
 	          ),
 	          _react2.default.createElement(
