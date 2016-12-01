@@ -21784,6 +21784,10 @@
 	
 	var _app2 = _interopRequireDefault(_app);
 	
+	var _dice = __webpack_require__(275);
+	
+	var _dice2 = _interopRequireDefault(_dice);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Root = function Root(_ref) {
@@ -21794,7 +21798,11 @@
 	    _react2.default.createElement(
 	      _reactRouter.Router,
 	      { history: _reactRouter.hashHistory },
-	      _react2.default.createElement(_reactRouter.Route, { path: '/', component: _app2.default })
+	      _react2.default.createElement(
+	        _reactRouter.Route,
+	        { path: '/', component: _app2.default },
+	        _react2.default.createElement(_reactRouter.Route, { path: '/bitcoindice', component: _dice2.default })
+	      )
 	    )
 	  );
 	};
@@ -28789,7 +28797,7 @@
 	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row sample' },
+	            { className: 'row' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
 	              { className: '', to: '/dice' },
@@ -28897,6 +28905,73 @@
 	var masterMiddleware = (0, _redux.applyMiddleware)();
 	
 	exports.default = masterMiddleware;
+
+/***/ },
+/* 275 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Dice = function (_React$Component) {
+	  _inherits(Dice, _React$Component);
+	
+	  function Dice() {
+	    _classCallCheck(this, Dice);
+	
+	    return _possibleConstructorReturn(this, (Dice.__proto__ || Object.getPrototypeOf(Dice)).apply(this, arguments));
+	  }
+	
+	  _createClass(Dice, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "container-fluid mobile-panel-group" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "panel panel-default" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "panel-heading dice-header" },
+	            "Dice Jackpot: 234 Bitcoin"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "panel-body dice-content" },
+	            "Panel Content"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "panel-footer" },
+	            "Panel Footer"
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Dice;
+	}(_react2.default.Component);
+	
+	exports.default = Dice;
 
 /***/ }
 /******/ ]);

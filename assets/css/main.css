@@ -65,6 +65,22 @@
   font-weight: 700;
 }
 
+.mobile-panel-group {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dice-header {
+  text-align: center;
+}
+
+.dice-content {
+  background-image: url('../images/LED_dice.png');
+  background-size: contain;
+  min-height: 200px;
+  color: white;
+}
+
 @media(max-width:412px){
   .navbar-brand {
     padding: 0 15px;

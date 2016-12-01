@@ -79,7 +79,7 @@ class TopNavBar extends React.Component {
           </div>
         </nav>
         <div className="container-fluid">
-          <div className="row sample">
+          <div className="row">
             <Link className="" to={'/dice'}>
               <div className="col-xs-3 under-nav-row">
                 Dice
