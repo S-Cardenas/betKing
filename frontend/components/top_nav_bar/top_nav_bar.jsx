@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class TopNavBar extends React.Component {
   render() {
@@ -7,10 +8,13 @@ class TopNavBar extends React.Component {
         <div className="container-fluid">
           <div className="navbar-header ">
             <div className="btn-group navbar-toggle">
+              <button type="button" className="btn chat-icon" data-toggle="collapse">
+                <Link to={'/chat'}>Chat</Link>
+              </button>
               <button type="button" className="btn account-img" data-toggle="collapse">
                 <img className="img-responsive" src="assets/images/account.jpg" alt="" style={{width: 50, height: 50}}/>
               </button>
-              <button type="button" className="btn sample" data-toggle="collapse" data-target="#myNavbar">
+              <button type="button" className="btn hamburger" data-toggle="collapse" data-target="#myNavbar">
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
