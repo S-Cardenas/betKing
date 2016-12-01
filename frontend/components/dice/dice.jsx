@@ -12,7 +12,7 @@ class Dice extends React.Component {
             <div className='dice-results'>
               99.999
             </div>
-            <div className="row">
+            <div className="row dice-content-footer">
               <div className="col-xs-4">
                 <span className="glyphicon glyphicon glyphicon-volume-up"></span>
               </div>
@@ -24,7 +24,16 @@ class Dice extends React.Component {
               </div>
             </div>
           </div>
-          <div className="panel-footer">Panel Footer</div>
+          <div className="panel-footer">
+            <div className="row balance">
+              <div className="col-xs-6">
+                Balance: 123B
+              </div>
+              <div className="col-xs-6">
+                Max Profit: 123B
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

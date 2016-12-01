@@ -28963,7 +28963,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "row" },
+	              { className: "row dice-content-footer" },
 	              _react2.default.createElement(
 	                "div",
 	                { className: "col-xs-4" },
@@ -28984,7 +28984,20 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "panel-footer" },
-	            "Panel Footer"
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row balance" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-6" },
+	                "Balance: 123B"
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-6" },
+	                "Max Profit: 123B"
+	              )
+	            )
 	          )
 	        )
 	      );
