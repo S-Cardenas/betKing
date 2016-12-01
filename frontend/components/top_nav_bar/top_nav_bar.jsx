@@ -81,10 +81,26 @@ class TopNavBar extends React.Component {
         </nav>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-sm-3">.col-sm-4</div>
-            <div className="col-sm-3">.col-sm-4</div>
-            <div className="col-sm-3">.col-sm-4</div>
-            <div className="col-sm-3">.col-sm-4</div>
+            <Link className="" to={'/dice'}>
+              <div className="col-xs-3 under-nav-row">
+                Dice
+              </div>
+            </Link>
+            <Link className="" to={'/casino'}>
+              <div className="col-xs-3 under-nav-row">
+                Casino
+              </div>
+            </Link>
+            <Link className="" to={'/sports'}>
+              <div className="col-xs-3 under-nav-row">
+                Sports
+              </div>
+            </Link>
+            <Link className="" to={'/poker'}>
+              <div className="col-xs-3 under-nav-row">
+                Poker
+              </div>
+            </Link>
           </div>
         </div>
       </div>

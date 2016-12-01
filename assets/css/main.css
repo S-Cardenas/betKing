@@ -42,5 +42,16 @@
   height: 50px;
 }
 
+.under-nav-row {
+  color: white;
+  background-color: red;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
 .sample {
+  /*width: 100%;*/
 }

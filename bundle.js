@@ -28792,24 +28792,40 @@
 	            'div',
 	            { className: 'row' },
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-sm-3' },
-	              '.col-sm-4'
+	              _reactRouter.Link,
+	              { className: '', to: '/dice' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-3 under-nav-row' },
+	                'Dice'
+	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-sm-3' },
-	              '.col-sm-4'
+	              _reactRouter.Link,
+	              { className: '', to: '/casino' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-3 under-nav-row' },
+	                'Casino'
+	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-sm-3' },
-	              '.col-sm-4'
+	              _reactRouter.Link,
+	              { className: '', to: '/sports' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-3 under-nav-row' },
+	                'Sports'
+	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-sm-3' },
-	              '.col-sm-4'
+	              _reactRouter.Link,
+	              { className: '', to: '/poker' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-3 under-nav-row' },
+	                'Poker'
+	              )
 	            )
 	          )
 	        )
